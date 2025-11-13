@@ -14,7 +14,7 @@ const MagnumFooter = () => {
           repeat: Infinity,
           duration: 6,
           ease: "linear",
-        }}
+        }}  
       />
 
       <div className="relative container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
