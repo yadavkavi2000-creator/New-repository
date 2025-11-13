@@ -29,22 +29,23 @@ const PopularSection = () => {
     {
       id: 2,
       img: "/images/popular-2.png",
-      title: "Chocolate Fudge Delight",
+      title: "Magnam cookie Duet Ice Cream Bars",
       price: "$5.99",
       bgColor: "#eedfd9",
     },
     {
       id: 3,
       img: "/images/popular-3.png",
-      title: "Strawberry Swirl Bliss",
+      title: "Magnam Double Raspberry Ice Cream",
       price: "$4.99",
       bgColor: "#faeaed",
     },
+      
   ];
 
   return (
     <section className="section__container popular__container" id="menu">
-      <h2 className="section__header">Popular Ice-Cream</h2>
+      {/* <h2 className="section__header">Popular Ice-Cream</h2> */}
 
       {/* Grid of 3 cards */}
       <div className="popular__grid">
