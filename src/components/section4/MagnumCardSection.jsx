@@ -74,7 +74,7 @@ const MagnumCardSection = () => {
             <img
               src={ice.img}
               alt={ice.name}
-              className={`w-full h-48 object-cover transition-opacity duration-500 ${
+              className={`w-full h-70 ject-cover transition-opacity duration-500 ${
                 hovered === ice.id ? "opacity-0" : "opacity-100"
               }`}
             />
@@ -86,7 +86,7 @@ const MagnumCardSection = () => {
                 autoPlay
                 loop
                 muted
-                className="absolute top-0 left-0 w-full h-48 object-cover rounded-2xl"
+                className="absolute top-0 left-0 w-full h-70 object-cover rounded-2xl"
               />
             )}
 
@@ -104,3 +104,6 @@ const MagnumCardSection = () => {
 };
 
 export default MagnumCardSection;
+
+
+  

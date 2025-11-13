@@ -4,6 +4,7 @@ import Page2 from './section2/Page2'
 import Navbar from './section1/Navbar'
 import Page3 from './section3/page3'
 import Page4 from './section4/Page4'
+import Page5 from './section5/page5'
 
 const Mainpage = () => {
   return (
@@ -13,6 +14,7 @@ const Mainpage = () => {
      <Page2/>
      <Page3/>
      <Page4/>
+     <Page5/>
     </div>
   )
 }
